@@ -24,5 +24,8 @@ namespace EFStudent
         [Required]
         public bool GradWithHonors { get; set; }
         public bool AlumniDoner { get; set; }
+
+        public int SAT { get; set; }
+        public decimal GPA { get; set; }
     }
 }

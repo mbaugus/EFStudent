@@ -11,5 +11,6 @@ namespace EFStudent
     {
         public DBContextFile() : base(){}
         public virtual DbSet<Student> Students { get; set; }
+        public virtual DbSet<Test> Tests { get; set; }
     }
 }
